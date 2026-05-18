@@ -1,46 +1,67 @@
 # Dados e Educação: Priorização de Intervenções Educacionais no Brasil
 
-*Análise socioeducacional baseada em indicadores públicos, clusterização e priorização orientada por dados.*
+Análise socioeducacional orientada por dados para identificação de vulnerabilidades, priorização de intervenções educacionais e apoio à tomada de decisão em contextos educacionais brasileiros.
 
-![Gapminder Inspired Visualization](images/gapminder_educacao.png)
+---
 
-**Figura:** Visualização inspirada no Gapminder relacionando desempenho educacional, contexto socioeconômico e população dos estados brasileiros.
+![Gapminder Educacional](images/gapminder_educacao.png)
+
+*Visualização inspirada na abordagem do Gapminder para análise de relações entre desenvolvimento social, vulnerabilidade socioeconômica e desempenho educacional.*
+
+---
+
+## Visão Geral
+
+**Dataset:** indicadores educacionais e socioeconômicos dos estados brasileiros  
+**Fontes:** IBGE, SAEB / INEP e indicadores educacionais públicos brasileiros  
+**Técnicas:** análise exploratória, regressão linear, clusterização, priorização educacional e simulação de acompanhamento  
+**Principal insight:** estados com contextos socioeconômicos semelhantes apresentaram desempenhos educacionais muito diferentes.  
+Enquanto o Ceará apresentou o maior desempenho da rede pública, estados como Maranhão, Roraima e Paraíba apresentaram os maiores níveis relativos de prioridade de intervenção educacional.
 
 ---
 
 ## Contexto do Projeto
 
-Desigualdades educacionais continuam sendo um dos principais desafios estruturais do Brasil. Embora indicadores nacionais permitam acompanhar tendências gerais, diferenças importantes entre estados e regiões ainda exigem análises mais detalhadas e contextualizadas.
+Desigualdades educacionais no Brasil estão fortemente associadas a fatores socioeconômicos e regionais. No entanto, estados com contextos semelhantes podem apresentar desempenhos educacionais significativamente diferentes.
 
-Este projeto utiliza dados públicos para explorar relações entre desempenho educacional e indicadores socioeconômicos nos estados brasileiros, buscando identificar padrões, contextos prioritários e possíveis aplicações práticas orientadas por dados.
+O projeto integra indicadores educacionais e socioeconômicos públicos para explorar relações entre desempenho educacional, vulnerabilidade social e priorização de intervenções educacionais nos estados brasileiros.
 
-A análise também propõe uma estrutura simplificada de priorização educacional e monitoramento de intervenção, aproximando técnicas de Data Science de contextos de políticas públicas e impacto social.
+A proposta busca demonstrar como análises orientadas por dados podem apoiar processos de priorização, monitoramento e tomada de decisão em políticas públicas educacionais.
 
 ---
 
 ## Objetivos
 
-- Explorar relações entre indicadores socioeconômicos e desempenho educacional
-- Identificar padrões regionais e desigualdades educacionais
-- Aplicar regressão linear e clusterização para análise de contextos educacionais
-- Construir um indicador simplificado de priorização de intervenção
-- Simular uma proposta de piloto educacional orientado por dados
-- Demonstrar aplicações práticas de monitoramento educacional
+- identificar relações entre indicadores socioeconômicos e desempenho educacional
+- comparar diferenças educacionais entre estados e regiões
+- analisar desigualdades entre redes pública e privada
+- construir um indicador de vulnerabilidade socioeconômica
+- desenvolver um modelo simplificado de priorização educacional
+- identificar contextos com maior potencial relativo para intervenção
+- simular acompanhamento de um piloto educacional orientado por dados
 
 ---
 
 ## Dataset
 
-O projeto utiliza indicadores públicos relacionados a:
+O projeto utiliza indicadores educacionais e socioeconômicos públicos dos estados brasileiros, integrando dados relacionados a desempenho educacional, renda, pobreza, desigualdade social e urbanização.
 
-- desempenho educacional
-- renda domiciliar
+### Principais variáveis analisadas
+
+- desempenho educacional médio da rede pública
+- desempenho médio da rede privada
+- renda
 - pobreza
-- desigualdade social (Índice de Gini)
-- urbanização
+- índice de Gini
 - escolaridade
+- urbanização
+- população
 
-Os dados foram organizados em nível estadual para permitir comparações regionais e construção de indicadores socioeconômicos consolidados.
+### Fontes de dados
+
+- IBGE
+- SAEB / INEP
+- indicadores educacionais públicos brasileiros
 
 ---
 
@@ -48,92 +69,124 @@ Os dados foram organizados em nível estadual para permitir comparações region
 
 A análise foi estruturada nas seguintes etapas:
 
-1. Análise Exploratória de Dados (EDA)
-2. Visualizações inspiradas no Gapminder
-3. Regressão Linear
-4. Clusterização com K-Means
-5. Construção de score de vulnerabilidade socioeconômica
-6. Priorização de intervenção educacional
-7. Simulação de piloto educacional
-8. Indicadores de monitoramento e teoria da mudança
+1. Integração e preparação dos dados
+2. Análise exploratória (EDA)
+3. Visualizações inspiradas no Gapminder
+4. Regressões lineares
+5. Comparações regionais
+6. Clusterização de estados
+7. Construção do score de vulnerabilidade socioeconômica
+8. Modelo de priorização de intervenção educacional
+9. Proposta de piloto educacional orientado por dados
+10. Simulação de acompanhamento educacional
 
 ---
 
-## Principais Análises
+## Principais Resultados
 
-### Análise Exploratória
+- Estados das regiões **Norte** e **Nordeste** concentraram os maiores níveis relativos de vulnerabilidade socioeconômica e prioridade de intervenção educacional.
 
-A análise exploratória revelou fortes diferenças regionais entre os estados brasileiros, especialmente entre Norte/Nordeste e Sul/Sudeste.
+- Indicadores socioeconômicos apresentaram relação relevante com o desempenho educacional da rede pública, mas não explicaram isoladamente todas as diferenças observadas entre os estados.
 
-Indicadores como pobreza, renda e urbanização apresentaram relações relevantes com o desempenho educacional médio da rede pública.
+- Estados como **Ceará**, **Piauí** e **Pernambuco** apresentaram desempenho educacional relativamente superior ao observado em outros contextos socioeconômicos semelhantes.
 
----
+- O **Ceará** apresentou o maior desempenho médio da rede pública da análise (**264.6 pontos**), destacando-se mesmo em uma região com elevados níveis relativos de vulnerabilidade social.
 
-### Regressão Linear
+- Estados com indicadores socioeconômicos mais favoráveis, como o **Distrito Federal**, não apresentaram desempenho educacional proporcionalmente superior quando comparados a outros estados analisados.
 
-A regressão linear mostrou relação significativa entre indicadores socioeconômicos e desempenho educacional.
+- Todos os estados apresentaram desempenho superior na rede privada em relação à rede pública.
 
-No entanto, os resultados também evidenciaram que fatores socioeconômicos não explicam isoladamente as diferenças observadas entre os estados.
+- As maiores diferenças entre redes ocorreram em **Rio Grande do Norte (+26.5%)** e **Sergipe (+23.9%)**, enquanto **Paraná (+4.3%)** e **Ceará (+7.5%)** apresentaram as menores diferenças relativas.
 
----
+- A análise mostrou que indicadores socioeconômicos tendem a seguir padrões regionais relativamente semelhantes, enquanto o desempenho educacional variou significativamente entre estados de uma mesma região.
 
-### Clusterização
-
-A aplicação de K-Means permitiu identificar diferentes perfis socioeconômicos e educacionais entre os estados brasileiros.
-
-A análise mostrou que estados de uma mesma região podem apresentar contextos bastante distintos, reforçando a importância de análises multidimensionais.
-
-![Clusters](images/clusterizacao_estados.png)
-
-**Figura:** Agrupamento dos estados brasileiros considerando indicadores socioeconômicos e desempenho educacional.
+- **Santa Catarina** apresentou um dos resultados mais equilibrados da análise, combinando elevado desempenho educacional (**261.8 pontos**), baixa pobreza (**12.6%**) e menor desigualdade social relativa (**Gini = 0.418**).
 
 ---
 
-### Priorização de Intervenção Educacional
+## Comparação entre Redes Pública e Privada
 
-Foi construído um indicador simplificado combinando:
+Além da análise da rede pública, o projeto também investigou diferenças de desempenho entre redes pública e privada nos estados brasileiros.
 
-- vulnerabilidade socioeconômica
-- desempenho educacional da rede pública
+![Comparação entre Redes](images/publico_privado.png)
 
-O objetivo foi identificar estados com maior potencial relativo para intervenções educacionais direcionadas.
+A comparação mostrou que:
 
-Estados como Maranhão, Pará, Bahia e Roraima destacaram-se entre os maiores níveis relativos de prioridade da análise.
+- todos os estados apresentaram desempenho superior na rede privada
+- as diferenças entre redes variaram significativamente entre os estados
+- não foi observado um padrão regional único para as maiores diferenças
 
----
-
-### Diferenças entre Redes Pública e Privada
-
-A comparação entre redes pública e privada mostrou desempenho superior da rede privada em todos os estados analisados.
-
-No entanto, a diferença entre as redes não seguiu um padrão regional único, já que estados de diferentes regiões apareceram tanto entre as maiores quanto entre as menores diferenças observadas.
-
-O Ceará destacou-se novamente pelo elevado desempenho da rede pública quando comparado a outros estados da região Nordeste.
+Estados como **Rio Grande do Norte**, **Sergipe** e **Minas Gerais** apresentaram os maiores gaps relativos entre as redes, enquanto **Paraná** e **Ceará** apresentaram diferenças proporcionalmente menores.
 
 ---
 
-### Simulação do Piloto Educacional
+## Clusterização e Perfis Regionais
 
-O projeto também propõe uma simulação simplificada de acompanhamento educacional ao longo do tempo, utilizando:
+A clusterização permitiu identificar diferentes perfis socioeconômicos e educacionais entre os estados brasileiros.
 
-- estados prioritários para intervenção
-- indicadores de monitoramento
-- teoria da mudança
-- evolução simulada de desempenho educacional
+![Clusterização](images/clusterizacao.png)
 
-![Pilot Simulation](images/simulacao_piloto.png)
+Os resultados reforçaram que:
 
-**Figura:** Simulação simplificada de evolução do desempenho educacional ao longo do acompanhamento do piloto.
+- estados de uma mesma região podem apresentar desempenhos educacionais bastante diferentes
+- indicadores socioeconômicos não explicam isoladamente os resultados educacionais
+- análises multidimensionais são importantes para apoiar decisões de intervenção educacional
 
 ---
 
-## Principais Insights
+## Priorização de Intervenção Educacional
 
-- Estados das regiões Norte e Nordeste concentraram maiores níveis de vulnerabilidade socioeconômica
-- O desempenho educacional da rede pública variou significativamente entre estados da mesma região
-- O Ceará apresentou desempenho acima da tendência observada para contextos socioeconômicos semelhantes
-- Fatores socioeconômicos influenciam o desempenho educacional, mas não explicam isoladamente as diferenças observadas
-- A integração entre indicadores sociais e educacionais pode apoiar processos de priorização e monitoramento de políticas públicas
+A partir do cruzamento entre vulnerabilidade socioeconômica e desempenho educacional, foi desenvolvido um indicador simplificado de priorização educacional.
+
+O modelo permitiu identificar estados com maior potencial relativo para intervenções direcionadas.
+
+![Mapa de Priorização](images/mapa_priorizacao.png)
+
+### Estados classificados como maior prioridade relativa
+
+- Maranhão
+- Roraima
+- Paraíba
+- Bahia
+- Rio Grande do Norte
+- Sergipe
+- Pará
+
+---
+
+## Proposta de Piloto Educacional
+
+Com base nos resultados observados ao longo da análise, foi construída uma proposta simplificada de piloto educacional orientado por dados.
+
+A proposta possui foco principalmente em:
+
+- estados classificados como maior prioridade relativa
+- acompanhamento contínuo de indicadores educacionais
+- monitoramento de desempenho
+- apoio pedagógico e tecnologia educacional
+
+O projeto também utilizou o **Ceará** como importante referência comparativa devido ao desempenho educacional acima da tendência observada para contextos socioeconômicos semelhantes.
+
+---
+
+## Simulação de Acompanhamento
+
+Foi desenvolvida uma simulação simplificada de acompanhamento educacional ao longo de quatro anos.
+
+A proposta buscou ilustrar como indicadores educacionais poderiam apoiar:
+
+- monitoramento contínuo
+- avaliação de impacto
+- acompanhamento de desempenho
+- priorização educacional orientada por dados
+
+Estados utilizados na simulação:
+
+- Maranhão
+- Pará
+- Ceará (referência comparativa)
+
+![Simulação do Piloto](images/simulacao_piloto.png)
 
 ---
 
@@ -141,66 +194,87 @@ O projeto também propõe uma simulação simplificada de acompanhamento educaci
 
 A proposta desenvolvida ao longo do projeto pode contribuir para:
 
-- priorização de políticas educacionais
-- monitoramento de indicadores públicos
-- acompanhamento de metas educacionais
+- priorização de políticas públicas educacionais
+- monitoramento de indicadores educacionais
 - avaliação simplificada de impacto
-- identificação de contextos prioritários para intervenção
+- identificação de contextos vulneráveis
+- acompanhamento de metas educacionais
 - apoio à tomada de decisão orientada por dados
 
 ---
 
-## Ferramentas e Tecnologias
+## Limitações
 
-- Python
-- Pandas
-- NumPy
-- Plotly
-- Matplotlib
-- Scikit-learn
-- Jupyter Notebook
+Algumas limitações devem ser consideradas:
+
+- utilização de dados agregados por estado
+- ausência de séries temporais mais longas
+- limitação de indicadores disponíveis em algumas bases públicas
+- utilização de simulações simplificadas no piloto educacional
 
 ---
 
-## Estrutura do Repositório
+## Próximos Passos
 
-```
+Possíveis expansões futuras incluem:
+
+- análises em nível municipal
+- integração com dados de evasão escolar
+- utilização de séries históricas
+- modelos preditivos para risco de evasão
+- integração com indicadores reais de acompanhamento escolar
+- modelos de séries temporais educacionais
+- análise de políticas públicas específicas
+- dashboards interativos de monitoramento
+
+---
+
+## Estrutura do Projeto
+
+```bash
 .
 ├── data
 ├── notebooks
 ├── images
 ├── requirements.txt
 └── README.md
-
 ```
 
 ---
 
-##L imitações
-- utilização de dados agregados por estado
-- ausência de séries temporais mais longas
-- limitação de alguns indicadores públicos disponíveis
-- simulação ilustrativa do piloto educacional
+## Pipeline Analítico
+
+```text
+Coleta de dados
+→ análise exploratória
+→ regressão linear
+→ clusterização
+→ score de vulnerabilidade
+→ priorização educacional
+→ simulação de acompanhamento
+→ aplicações práticas
+```
 
 ---
 
-##Próximos Passos
+## Tecnologias Utilizadas
 
-Possíveis expansões futuras incluem:
-
-- análises em nível municipal
-- integração com dados de evasão escolar
-- modelos preditivos de risco educacional
-- séries temporais de desempenho
-- dashboards interativos
-- avaliação longitudinal de políticas públicas
+- Python
+- Pandas
+- NumPy
+- Plotly
+- Scikit-learn
+- GeoPandas
+- Matplotlib
 
 ---
 
 ## Conclusão
 
-Este projeto demonstra como técnicas de análise de dados podem apoiar processos de priorização, monitoramento e tomada de decisão em contextos educacionais.
+Este projeto buscou demonstrar como análises de dados podem apoiar processos de priorização, monitoramento e avaliação em contextos educacionais complexos.
 
-Ao integrar indicadores socioeconômicos, desempenho educacional e simulação de intervenção, a análise busca aproximar Data Science de aplicações práticas em políticas públicas e impacto social.
+Os resultados mostraram que fatores socioeconômicos possuem relação importante com o desempenho educacional, mas não explicam isoladamente as diferenças observadas entre os estados brasileiros.
 
-Mais do que identificar diferenças regionais, o projeto reforça a importância de análises contextualizadas e multidimensionais para compreender desafios educacionais complexos no Brasil.
+Casos como o **Ceará** reforçam a importância de análises multidimensionais e da avaliação individual dos contextos educacionais, enquanto estados como **Maranhão**, **Roraima** e **Paraíba** destacaram-se entre os maiores níveis relativos de prioridade para intervenção educacional.
+
+Mais do que produzir previsões, o projeto busca demonstrar como dados públicos podem apoiar decisões educacionais mais direcionadas, transparentes e orientadas por evidências.
