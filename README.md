@@ -15,8 +15,7 @@ Análise socioeducacional orientada por dados para identificação de vulnerabil
 **Dataset:** indicadores educacionais e socioeconômicos dos estados brasileiros  
 **Fontes:** IBGE, SAEB / INEP e indicadores educacionais públicos brasileiros  
 **Técnicas:** análise exploratória, regressão linear, clusterização, priorização educacional e simulação de acompanhamento  
-**Principal insight:** estados com contextos socioeconômicos semelhantes apresentaram desempenhos educacionais muito diferentes.  
-Enquanto o Ceará apresentou o maior desempenho da rede pública, estados como Maranhão, Roraima e Paraíba apresentaram os maiores níveis relativos de prioridade de intervenção educacional.
+**Principal insight:** O Ceará apresentou o maior desempenho da rede pública, enquanto Maranhão, Roraima e Paraíba apresentaram os maiores níveis relativos de prioridade de intervenção educacional, evidenciando que contextos socioeconômicos semelhantes podem apresentar desempenhos educacionais distintos.
 
 ---
 
