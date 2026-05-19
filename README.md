@@ -20,6 +20,14 @@ Enquanto o Ceará apresentou o maior desempenho da rede pública, estados como M
 
 ---
 
+## Dashboard interativo
+
+Este projeto também possui uma versão interativa desenvolvida com Streamlit e Plotly:
+
+🔗 https://vanessa22400-analise-intervencao--dashboard-streamlitapp-kcbej6.streamlit.app/
+
+---
+
 ## Contexto do Projeto
 
 Desigualdades educacionais no Brasil estão fortemente associadas a fatores socioeconômicos e regionais. No entanto, estados com contextos semelhantes podem apresentar desempenhos educacionais significativamente diferentes.
