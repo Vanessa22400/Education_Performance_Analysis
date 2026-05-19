@@ -101,9 +101,7 @@ A análise foi estruturada nas seguintes etapas:
 
 - Estados com indicadores socioeconômicos mais favoráveis, como o **Distrito Federal**, não apresentaram desempenho educacional proporcionalmente superior quando comparados a outros estados analisados.
 
-- Todos os estados apresentaram desempenho superior na rede privada em relação à rede pública.
-
-- As maiores diferenças entre redes ocorreram em **Rio Grande do Norte (+26.5%)** e **Sergipe (+23.9%)**, enquanto **Paraná (+4.3%)** e **Ceará (+7.5%)** apresentaram as menores diferenças relativas.
+- Todos os estados apresentaram desempenho superior na rede privada em relação à rede pública. As maiores diferenças são em **Rio Grande do Norte (+26.5%)** e **Sergipe (+23.9%)**, enquanto **Paraná (+4.3%)** e **Ceará (+7.5%)** apresentaram as menores diferenças relativas.
 
 - A análise mostrou que indicadores socioeconômicos tendem a seguir padrões regionais relativamente semelhantes, enquanto o desempenho educacional variou significativamente entre estados de uma mesma região.
 
