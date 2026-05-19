@@ -91,19 +91,15 @@ A análise foi estruturada nas seguintes etapas:
 
 ## Principais Resultados
 
-- Estados das regiões **Norte** e **Nordeste** concentraram os maiores níveis relativos de vulnerabilidade socioeconômica e prioridade de intervenção educacional.
+- O desempenho educacional da rede pública apresentou relação relevante com os indicadores socioeconômicos analisados, mas esses fatores não explicaram isoladamente todas as diferenças observadas entre estados de uma mesma região.
 
-- Indicadores socioeconômicos apresentaram relação relevante com o desempenho educacional da rede pública, mas não explicaram isoladamente todas as diferenças observadas entre os estados.
+- Enquanto fatores socioeconômicos seguiram padrões regionais relativamente semelhantes, com maiores níveis de vulnerabilidade nas regiões **Norte** e **Nordeste**, o desempenho educacional variou significativamente entre estados da mesma região.
 
-- Estados como **Ceará**, **Piauí** e **Pernambuco** apresentaram desempenho educacional relativamente superior ao observado em outros contextos socioeconômicos semelhantes.
-
-- O **Ceará** apresentou o maior desempenho médio da rede pública da análise (**264.6 pontos**), destacando-se mesmo em uma região com elevados níveis relativos de vulnerabilidade social.
+- O **Ceará** apresentou o maior desempenho médio da análise (**264.6 pontos**), mesmo em uma região com elevados níveis relativos de vulnerabilidade social. **Piauí** e **Pernambuco** também apresentaram desempenho relativamente superior dentro da mesma região.
 
 - Estados com indicadores socioeconômicos mais favoráveis, como o **Distrito Federal**, não apresentaram desempenho educacional proporcionalmente superior quando comparados a outros estados analisados.
 
-- Todos os estados apresentaram desempenho superior na rede privada em relação à rede pública. As maiores diferenças são em **Rio Grande do Norte (+26.5%)** e **Sergipe (+23.9%)**, enquanto **Paraná (+4.3%)** e **Ceará (+7.5%)** apresentaram as menores diferenças relativas.
-
-- A análise mostrou que indicadores socioeconômicos tendem a seguir padrões regionais relativamente semelhantes, enquanto o desempenho educacional variou significativamente entre estados de uma mesma região.
+- Todos os estados apresentaram desempenho superior na rede privada em relação à rede pública. As maiores diferenças são em **Rio Grande do Norte (26.5%)**, **Sergipe (23.9%)** e **Minas Gerais** (**21.6**%), enquanto **Paraná (4.3%)** e **Ceará (7.5%)** apresentaram as menores diferenças relativas.
 
 - **Santa Catarina** apresentou um dos resultados mais equilibrados da análise, combinando elevado desempenho educacional (**261.8 pontos**), baixa pobreza (**12.6%**) e menor desigualdade social relativa (**Gini = 0.418**).
 
@@ -147,7 +143,7 @@ O modelo permitiu identificar estados com maior potencial relativo para interven
 
 ![Mapa de Priorização](images/mapa_priorizacao.png)
 
-### Estados classificados como maior prioridade relativa
+### Estados classificados como maior prioridade relativa de intervenção 
 
 - Maranhão
 - Roraima
@@ -280,6 +276,6 @@ Este projeto buscou demonstrar como análises de dados podem apoiar processos de
 
 Os resultados mostraram que fatores socioeconômicos possuem relação importante com o desempenho educacional, mas não explicam isoladamente as diferenças observadas entre os estados brasileiros.
 
-Casos como o **Ceará** reforçam a importância de análises multidimensionais e da avaliação individual dos contextos educacionais, enquanto estados como **Maranhão**, **Roraima** e **Paraíba** destacaram-se entre os maiores níveis relativos de prioridade para intervenção educacional.
+Casos como o **Ceará**, que apresentou o maior desempenho escolar da análise mesmo em uma região com elevados níveis relativos de vulnerabilidade social, reforçam a importância de análises multidimensionais e da avaliação individual dos contextos educacionais. Em contraste, outros estados da mesma região, como **Maranhão**, **Bahia** e **Paraíba**, destacaram-se entre os maiores níveis relativos de prioridade para intervenção educacional.
 
 Mais do que produzir previsões, o projeto busca demonstrar como dados públicos podem apoiar decisões educacionais mais direcionadas, transparentes e orientadas por evidências.
