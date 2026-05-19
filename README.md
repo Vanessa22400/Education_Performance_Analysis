@@ -95,13 +95,13 @@ A análise foi estruturada nas seguintes etapas:
 
 - Enquanto fatores socioeconômicos seguiram padrões regionais relativamente semelhantes, com maiores níveis de vulnerabilidade nas regiões **Norte** e **Nordeste**, o desempenho educacional variou significativamente entre estados da mesma região.
 
-- O **Ceará** apresentou o maior desempenho médio da análise (**264.6 pontos**), mesmo em uma região com elevados níveis relativos de vulnerabilidade social. **Piauí** e **Pernambuco** também apresentaram desempenho relativamente superior dentro da mesma região.
+- O **Ceará** apresentou o maior desempenho médio da análise (**264.6** pontos), mesmo em uma região com elevados níveis relativos de vulnerabilidade social. **Piauí** e **Pernambuco** também apresentaram desempenho relativamente superior dentro da mesma região.
 
 - Estados com indicadores socioeconômicos mais favoráveis, como o **Distrito Federal**, não apresentaram desempenho educacional proporcionalmente superior quando comparados a outros estados analisados.
 
-- Todos os estados apresentaram desempenho superior na rede privada em relação à rede pública. As maiores diferenças são em **Rio Grande do Norte (26.5%)**, **Sergipe (23.9%)** e **Minas Gerais** (**21.6**%), enquanto **Paraná (4.3%)** e **Ceará (7.5%)** apresentaram as menores diferenças relativas.
+- Todos os estados apresentaram desempenho superior na rede privada em relação à rede pública. As maiores diferenças são em **Rio Grande do Norte** (**26.5**%), **Sergipe** (**23.9**%) e **Minas Gerais** (**21.6**%), enquanto **Paraná** (**4.3**%) e **Ceará** (**7.5**%) apresentaram as menores diferenças relativas.
 
-- **Santa Catarina** apresentou um dos resultados mais equilibrados da análise, combinando elevado desempenho educacional (**261.8 pontos**), baixa pobreza (**12.6%**) e menor desigualdade social relativa (**Gini = 0.418**).
+- **Santa Catarina** apresentou um dos resultados mais equilibrados da análise, combinando elevado desempenho educacional (**261.8** pontos), baixa pobreza (**12.6**%) e menor desigualdade social relativa (**Gini** = **0.418**).
 
 ---
 
