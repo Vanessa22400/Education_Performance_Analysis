@@ -91,16 +91,12 @@ A análise foi estruturada nas seguintes etapas:
 
 ## Principais Resultados
 
-As visualizações abaixo mostram relações entre renda, pobreza, desigualdade social e desempenho educacional nos estados brasileiros, evidenciando diferenças importantes mesmo entre estados de uma mesma região.
-
-### Relação entre renda, pobreza e desempenho educacional
-
 <p align="center">
   <img src="images/gap_pobreza.png" width="49%">
   <img src="images/gap_gini.png" width="49%">
 </p>
 
-*Visualizações inspiradas na abordagem do Gapminder para análise de relações entre vulnerabilidade socioeconômica e desempenho educacional nos estados brasileiros.*
+*Visualizações inspiradas na abordagem do Gapminder para análise de relações entre renda, pobreza, desigualdade social e desempenho educacional público nos estados brasileiros nos estados brasileiros, evidenciando diferenças importantes mesmo entre estados de uma mesma região.*
 
 ---
 
