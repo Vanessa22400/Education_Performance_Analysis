@@ -1,5 +1,4 @@
-# Data and Education:
-### Prioritizing Educational Interventions in Brazil
+# Data and Education: Prioritizing Educational Interventions in Brazil
 
 Data-driven socioeducational analysis focused on identifying educational vulnerabilities, prioritizing interventions, and supporting evidence-based decision-making in Brazilian public education.
 
@@ -293,6 +292,6 @@ This project aimed to demonstrate how data analysis can support prioritization, 
 
 The results showed that socioeconomic factors are strongly associated with educational performance, but do not fully explain the differences observed between Brazilian states.
 
-Cases such as Ceará — which achieved the highest educational performance despite belonging to a historically more vulnerable region — reinforce the importance of multidimensional analysis and state-level evaluation of educational contexts. In contrast, states such as Maranhão, Bahia, and Paraíba stood out among the highest relative levels of educational intervention priority.
+Cases such as Ceará, which achieved the highest educational performance despite belonging to a historically more vulnerable region, reinforce the importance of multidimensional analysis and state-level evaluation of educational contexts. In contrast, states such as Maranhão, Bahia, and Paraíba stood out among the highest relative levels of educational intervention priority.
 
 More than generating predictions, the project seeks to demonstrate how public data can support more targeted, transparent, and evidence-based educational decision-making.
