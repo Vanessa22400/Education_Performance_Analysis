@@ -91,6 +91,19 @@ A análise foi estruturada nas seguintes etapas:
 
 ## Principais Resultados
 
+As visualizações abaixo mostram relações entre renda, pobreza, desigualdade social e desempenho educacional nos estados brasileiros, evidenciando diferenças importantes mesmo entre estados de uma mesma região.
+
+### Relação entre renda, pobreza e desempenho educacional
+
+<p align="center">
+  <img src="images/gap_pobreza.png" width="49%">
+  <img src="images/gap_gini.png" width="49%">
+</p>
+
+*Visualizações inspiradas na abordagem do Gapminder para análise de relações entre vulnerabilidade socioeconômica e desempenho educacional nos estados brasileiros.*
+
+---
+
 - O desempenho educacional da rede pública apresentou relação relevante com os indicadores socioeconômicos analisados, mas esses fatores não explicaram isoladamente todas as diferenças observadas entre estados de uma mesma região.
 
 - Enquanto fatores socioeconômicos seguiram padrões regionais relativamente semelhantes, com maiores níveis de vulnerabilidade nas regiões **Norte** e **Nordeste**, o desempenho educacional variou significativamente entre estados da mesma região.
@@ -152,6 +165,12 @@ O modelo permitiu identificar estados com maior potencial relativo para interven
 - Rio Grande do Norte
 - Sergipe
 - Pará
+
+<p align="center">
+  <img src="images/priorizacao.png" width="75%">
+</p>
+
+*Estados das regiões Norte e Nordeste concentraram os maiores níveis relativos de prioridade de intervenção educacional na análise realizada.*
 
 ---
 
