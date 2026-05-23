@@ -105,9 +105,9 @@ The analysis was structured into the following stages:
 
 - While socioeconomic indicators followed relatively similar regional patterns, educational performance varied considerably between states within the same region.
 
-- Ceará achieved the highest public education performance in the analysis (**264.6 points**), despite belonging to one of the historically more vulnerable regions of Brazil. Piauí and Pernambuco also demonstrated relatively strong educational performance within similar socioeconomic contexts.
+- **Ceará** achieved the highest public education performance in the analysis (**264.6 points**), despite belonging to one of the historically more vulnerable regions of Brazil. **Piauí** and **Pernambuco** also demonstrated relatively strong educational performance within similar socioeconomic contexts.
 
-- States with more favorable socioeconomic indicators, such as the Federal District, did not necessarily achieve proportionally superior educational outcomes.
+- States with more favorable socioeconomic indicators, such as the **Federal District**, did not necessarily achieve proportionally superior educational outcomes.
 
 - All states presented higher performance in private education compared to public education. The largest differences were observed in **Rio Grande do Norte (+26.5%)**, **Sergipe (+23.9%)**, and **Minas Gerais (+21.6%)**, while **Paraná (+4.3%)** and **Ceará (+7.5%)** presented the smallest relative gaps.
 
