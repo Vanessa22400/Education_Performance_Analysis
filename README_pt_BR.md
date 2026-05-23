@@ -122,11 +122,12 @@ Além da análise da rede pública, o projeto também investigou diferenças de 
 
 A comparação mostrou que:
 
+- a rede privada apresentou, em média, desempenho aproximadamente **16,9% superior** à rede pública entre os estados analisados
 - todos os estados apresentaram desempenho superior na rede privada
 - as diferenças entre redes variaram significativamente entre os estados
-- não foi observado um padrão regional único para as maiores diferenças
-
-Estados como **Rio Grande do Norte**, **Sergipe** e **Minas Gerais** apresentaram os maiores gaps relativos entre as redes, enquanto **Paraná** e **Ceará** apresentaram diferenças proporcionalmente menores.
+- **Rio Grande do Norte**, **Sergipe** e **Minas Gerais** apresentaram os maiores gaps relativos entre as redes, com diferenças superiores a **20%**
+- **Paraná** e **Ceará** apresentaram as menores diferenças relativas entre redes pública e privada, com gaps variando aproximadamente entre **4% e 8%**
+- não foi observado um padrão regional único para as maiores diferenças educacionais
 
 ---
 
