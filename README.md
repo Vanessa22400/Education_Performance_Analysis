@@ -123,11 +123,12 @@ In addition to public education performance, the project also explored differenc
 
 The analysis showed that:
 
+- private education achieved, on average, approximately **16.9% higher performance** than public education across the analyzed states
 - all states presented higher performance in private education
 - educational gaps varied considerably between states
-- no single regional pattern explained the largest educational disparities
-
-States such as **Rio Grande do Norte**, **Sergipe**, and **Minas Gerais** presented the largest relative educational gaps, while **Paraná** and **Ceará** presented proportionally smaller differences.
+- **Rio Grande do Norte**, **Sergipe**, and **Minas Gerais** presented the largest relative educational gaps, with differences above **20%**
+- **Paraná** and **Ceará** presented the smallest relative differences between public and private education, with gaps below **8%**
+- no single regional pattern fully explained the largest educational disparities
 
 ---
 
